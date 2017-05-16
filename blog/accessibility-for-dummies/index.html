@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+  <!-- Basic Meta Tags -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicons & App Icons -->
+
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#7F85B4">
+    <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Web Accessibility for Dummies - Dinsmore Design</title>
+<meta property="og:title" content="Web Accessibility for Dummies" />
+<meta name="description" content="Accessibility is a very important concept that’s often overlooked by developers. As technology becomes more widely-used, making sure the websites you build are accessible to all visitors should be number one on your list!" />
+<meta property="og:description" content="Accessibility is a very important concept that’s often overlooked by developers. As technology becomes more widely-used, making sure the websites you build are accessible to all visitors should be number one on your list!" />
+<link rel="canonical" href="https://dinsmoredesign.com/blog/accessibility-for-dummies/" />
+<meta property="og:url" content="https://dinsmoredesign.com/blog/accessibility-for-dummies/" />
+<meta property="og:site_name" content="Dinsmore Design" />
+<meta property="og:image" content="https://dinsmoredesign.com/images/posts/accessibility.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-05-16T00:00:00-07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@dinsmoredesign" />
+<meta name="twitter:creator" content="@Derek Dinsmore" />
+<meta property="fb:admins" content="555404704576320" />
+<meta property="article:publisher" content="555404704576320" />
+<meta property="fb:app_id" content="555404704576320" />
+<meta name="google-site-verification" content="Je_N8gBJkCkgNH7CGBcP1Lx8GebKzVdXVQWx-KjgkmY" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Web Accessibility for Dummies",
+    "image": "https://dinsmoredesign.com/images/posts/accessibility.jpg",
+    "datePublished": "2017-05-16T00:00:00-07:00",
+    "description": "Accessibility is a very important concept that’s often overlooked by developers. As technology becomes more widely-used, making sure the websites you build are accessible to all visitors should be number one on your list!",
+    "logo": "https://dinsmoredesign.com/images/mark.jpg",
+    "url": "https://dinsmoredesign.com/blog/accessibility-for-dummies/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+
+  <!-- CSS -->
+
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fontello.css">
+    <link rel="stylesheet" href="/css/font-awesome.css">
+
+  <!-- Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+
+  <!-- Misc -->
+
+    <link rel="canonical" href="https://dinsmoredesign.com/blog/accessibility-for-dummies/">
+    <link rel="alternate" type="application/rss+xml" title="Dinsmore Design" href="https://dinsmoredesign.com/feed" />
+
+  <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-30270281-1', 'auto');
+ ga('send', 'pageview');
+</script>
+</head>
+
+
+	<body>
+
+		<div class="contain-to-grid fullwidth alt sticky">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <a href="/" title="Return to homepage">
+            <strong>Dinsmore</strong>Design
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        
+          
+
+          
+            <li class="">
+              <a href="/" title="Visit Home page">Home</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="/about/" title="Visit About page">About</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="/services/" title="Visit Services page">Services</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="/portfolio/" title="Visit Portfolio page">Portfolio</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="/contact/" title="Visit Contact page">Contact</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="/blog/" title="Visit Blog page">Blog</a>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+	    
+	    	<div id="post-hero" style="background-image: url( /images/posts/accessibility.jpg )"></div>
+
+<div class="full" style="background: #333; padding: 40px 0 20px 0;">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 style="color: #fff;">
+        <a href="/blog/" title="Go back to main Blog page">Blog</a> | Web Accessibility for Dummies
+      </h2>
+      <p class="info">
+        <span>May 16, 2017</span>
+        /
+        <span>
+          by
+          <a href="/about/" title="Learn more about our business and authors">Derek Dinsmore</a>
+        </span>
+        <!-- /
+        <span>
+          In
+          
+            <a href="#">development</a>
+            
+          
+        </span>
+        /
+        <span>
+          <a href="#comments">4 comments</a>
+        </span> -->
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="mod modBlogPost big no_bg">
+        <div class="content">
+          <p>I’ll be the first to admit it, I was <strong>terrible</strong> at designing websites to be accessible in the beginning. One might be thinking to themselves, “<em>But Derek, my website looks great to me, why should I care about making it accessible if I don’t have any visually-impaired clients?”</em> I know, it’s hard to think about others who might have trouble viewing or using your website when you don’t have any disabilities yourself, but you’re really doing your users a disservice by not thinking about everyone who could potentially come across your URL. Just because you don’t currently have any users affected by poor accessibility, doesn’t mean it’s not worth delving into. In fact, many concepts associated with accessibility actually help boost your site’s SEO rankings, because search engine bots can’t see your website, either, they can only read it!</p>
+
+<h4 id="hold-on-a-second-what-is-accessibility-again">Hold on a second. What is accessibility, again?</h4>
+
+<p>I’ll go ahead and defer to <a href="http://www.adobe.com/accessibility/gettingstarted.html" title="Adobe's Accessibility Guide">Adobe</a>’s own definition here, as I feel like they explain it pretty well:</p>
+
+<blockquote>
+  <p>Accessibility involves two key issues: how users with disabilities access electronic information and how web content designers and developers enable web pages to function with assistive devices used by individuals with disabilities. For the user with a disability, the challenge is to identify tools that provide the most convenient access to web-based and other electronic information. For the web content designer/developer, the challenge is to remove the obstacles that prevent accessibility tools from functioning effectively. In many cases, these challenges are relatively simple to overcome, but sometimes the solutions require some additional thought and effort.</p>
+</blockquote>
+
+<h4 id="wcag-20-and-why-you-should-care-about-accessibility">WCAG 2.0 and why you should care about accessibility</h4>
+
+<p>W3C’s Web Content Accessibility Guidelines <a href="https://www.w3.org/WAI/intro/wcag" title="Visit WCAG website">(WCAG)</a> were developed with individuals and organizations around the world to provide standards for web accessibility. As developers, these are the standards and tools we utilize to build accessible websites across the web.</p>
+
+<p><a href="https://www.w3.org/standards/webdesign/accessibility" title="Visit WC3 Accessibility website">WC3</a> defines the purpose of the WCAG guidelines as:</p>
+
+<blockquote>
+  <p>It is essential that the Web be accessible in order to provide equal access and equal opportunity to people with diverse abilities. Indeed, the UN Convention on the Rights of Persons with Disabilities recognizes access to information and communications technologies, including the Web, <strong>as a basic human right.</strong></p>
+</blockquote>
+
+<p>They go on by saying:</p>
+
+<p>“<strong>Accessibility supports social inclusion</strong> for people with disabilities as well as others, such as older people, people in rural areas, and people in developing countries.</p>
+
+<p><strong>There is also a strong business case for accessibility.</strong> Accessibility overlaps with other best practices such as mobile web design, device independence, multi-modal interaction, usability, design for older users, and search engine optimization (SEO). Case studies show that accessible websites have better search results, reduced maintenance costs, and increased audience reach, among other benefits. Developing a Web Accessibility Business Case for Your Organization details the social, technical, financial, and legal benefits of web accessibility.”</p>
+
+<p>You should be developing towards their AA standards, at a minimum.</p>
+
+<h4 id="how-do-i-test-if-my-site-is-accessible">How do I test if my site is accessible?</h4>
+
+<p>Unless your site is really simple in its content, it’s pretty unlikely it’ll be <em>fully</em> accessible from the get-go, but the easiest way to check your site is by refreshing your page and using the keyboard to fully navigate your website utilizing the Tab, Space, Enter and arrow keys. You’ll also want to use a screen reader to make sure your content is read in the correct order by your computer. If you’re using Mac, their <a href="https://www.apple.com/accessibility/mac/vision/" title="Visit the Mac VoiceOver website">VoiceOver</a> tool is a great start. For Windows, the free <a href="https://www.nvaccess.org/" title="Visit the NV Access website">NVDA</a> suite is worth checking out, plus the industry-standard, <a href="http://www.freedomscientific.com/Products/Blindness/JAWS" title="Visit Job Access With Speech - JAWS - website">JAWS</a>.</p>
+
+<p>Using your keyboard and a screen reader to navigate and read your page can be a real eye-opener for developers who don’t usually build sites for disabled users. Don’t worry, thankfully accessibility has come a long way in the past few years and many standards have emerged that make it even easier to build an accessible website. Keep in mind, this guide is a crash-course on accessibility and the topic can get very dense, the more complex your application is.</p>
+
+<h4 id="accessibility-the-basics">Accessibility: The Basics</h4>
+
+<p>Fortunately, accessibility really isn’t that hard once you start to develop with it in mind. From a general sense, it really boils down to a few main elements:</p>
+
+<ol>
+  <li>Making sure your images and links both contain proper “alt” and “title” attributes with <strong>descriptive</strong> messages</li>
+  <li>Textual elements provide adequate contrast with their background elements</li>
+  <li>Items that should be clickable are focusable by the keyboard and provide visual cues to the reader when they are selected</li>
+  <li>Form elements like checkboxes and radio buttons are selectable by keyboard actions</li>
+  <li>JavaScript interactions are controllable by the keyboard</li>
+</ol>
+
+<h4 id="1-properly-adding-descriptions-to-images-and-anchors">1. Properly adding descriptions to images and anchors</h4>
+
+<p>If you’ve ever done SEO for a website, you know how important it is to add <em>alt</em> descriptions to images and <em>titles</em> to anchor tags, but what you probably didn’t realize is, you’re actually making your website more accessible to visually-impaired readers, too! Think about it: when Google indexes your website, it can’t actually see what’s rendered on a screen, it just reads your markup. That’s exactly how a screenreader works and it’s simple to fix if you haven’t already.</p>
+
+<p><strong>The alt Attribute:</strong></p>
+
+<p>The “alt” attribute of an <code class="highlighter-rouge">&lt;img&gt;</code> tag provides alternative information for an image if a user cannot view it. Not only does this display in place of an image with a broken link, but it’s also read by screen readers and search engines, so they know what the image is.</p>
+
+<p>You should try to be as descriptive in your text as possible, ie:</p>
+
+<p><code class="highlighter-rouge">&lt;img src="cats.jpg" alt="Cats playing outside"&gt;</code></p>
+
+<p>Try to avoid using images containing large amounts of text, but if your image does contain text, enter it in the alt description:</p>
+
+<p><code class="highlighter-rouge">&lt;img src="jobpost.jpg" alt="Wanted: Talented Drupal Developers!"&gt;</code></p>
+
+<p><strong>The title Attribute:</strong></p>
+
+<p>When using the title attribute you should be providing information about where you’re sending the user. You should not duplicate the anchor text in a title tag (unless you’re truncating the text within it), as it’s redundant. Use a title tag to support the content within the anchor:</p>
+
+<p><code class="highlighter-rouge">&lt;a href="/portfolio" title="Check out our portfolio to view more of our work"&gt; See more &lt;/a&gt;</code></p>
+
+<h4 id="2-testing-the-contrast-of-your-pages-content">2. Testing the contrast of your page’s content</h4>
+
+<p>Contrast is concerned with the size, weight and color of your textual elements over their background content. WCAG 2.0 AA standards require a contrast ratio of 4.5:1 for normal text and 3:1 for large text. Thankfully, you don’t really need to know how to do this, as WebAIM has developed an awesome tool for this! Contrast Checker provides a great resource to verify that your color choice provides a proper contrast ratio, which you can <a href="http://webaim.org/resources/contrastchecker/" title="Visit ContrastChecker's webpage">check out here</a>. Just enter in your background’s color value and the foreground value and it’ll tell you whether you’re compliant or not! <strong>How’s that for easy?</strong></p>
+
+<p><strong>Note:</strong> While not ideal, if your branding requires you to use a certain font color for anchor tags that can’t be changed, a good workaround is giving your link a dark border-bottom that allows your users to easily distinguish the text as a link.</p>
+
+<h4 id="3-testing-for-properly-focusable-items">3. Testing for properly focusable items</h4>
+
+<p>This test is easy enough, simply navigate your page and start tabbing! You’ll know pretty quickly what is and isn’t focusable, which will give you a good starting point on where to look in your code. It’s also important to make sure your content is highlighted in the correct order. Avoid using too many absolutely-positioned elements, as this can really mess up the order your page is read in. Keep in mind, a screenreader usually reads your content in the order it’s placed in your HTML. If your items are tabbing in the wrong order, you’ll want to check your markup!</p>
+
+<p><strong>tabindex Attribute:</strong> If you run into issues with tabbing that just can’t seem to be fixed in your regular markup, the <code class="highlighter-rouge">tabindex=""</code> HTML attribute is here to help. WebAIM cautions that you should only use this attribute, however, if:</p>
+
+<ol>
+  <li>The default tab order is not ideal, and</li>
+  <li>The tab order cannot be changed by rearranging items in the content and/or by altering the stylesheet to reflect the best visual arrangement.</li>
+</ol>
+
+<p>Learn more about the tabindex attribute <a href="http://webaim.org/techniques/keyboard/tabindex" title="WebAIM on tabindex">at WebAIM’s website</a>.</p>
+
+<p><strong>Note on Focused Elements:</strong> Many beginning developers disable the built-in <code class="highlighter-rouge">:focus</code> CSS outline that browsers assign. This is a <strong>big no-no</strong> when making your site accessible! <strong>Embrace the outline!</strong> It makes it easier for your readers to see where they’re clicking on the page.</p>
+
+<h4 id="4-making-your-form-elements-accessible">4. Making your form elements accessible</h4>
+
+<p>This could easily be a topic in itself, so I won’t go into a lot of detail here. More recently, it’s become common practice for developers to use custom styling on checkboxes and radio buttons, because you cannot directly style the default HTML <code class="highlighter-rouge">&lt;input type="checkbox"&gt;</code> or <code class="highlighter-rouge">&lt;input type="radio"&gt;</code>. Unfortunately, these solutions are rarely ever keyboard accessible and I strongly caution users who don’t already have a strong background in developing accessible websites to stay away from them. The default HTML form elements are accessible by nature.</p>
+
+<p>If you <em>have</em> to have custom checkboxes or radios, check out this <a href="http://www.manuel-strehl.de/dev/on_replacing_checkboxes_with_CSS3.en.html" title="Accessible custom checkbox tutorial">tutorial by Manuel Strehl</a>.</p>
+
+<h4 id="5-accessible-javascript">5. Accessible JavaScript</h4>
+
+<p>Many people developing web pages believe that using JavaScript makes the page inaccessible, but that’s just not true. Using JavaScript <strong>does not</strong> mean that your page is inaccessible, in fact, with modern screen readers allowing full support of the language, JS is actually a benefit to accessibility in many cases. However, this topic is very vast and requires more advanced knowledge, so I’ll leave this for another time. However, custom JavaScript is often where people run into issues with accessibility on more complex sites. Building a complex menu system that’s fully accessible can be pretty tricky, as well as sliders and other interactive elements.</p>
+
+<p>WebAIM’s <a href="http://webaim.org/techniques/javascript/" title="Learn about accessible JavaScript from WebAIM">article on accessible JavaScript</a> is a great start for those of you wanting to learn more, but for beginners, I’d suggest starting with an accessible CSS/JS framework and make it easier on yourself. While most other frameworks definitely keep accessibility in mind, <a href="http://foundation.zurb.com/sites/docs/accessibility.html" title="Foundation 6's accessibility documentation">Foundation 6 for Sites</a> is currently the only fully-accessible CSS and JavaScript framework on the market… and it’s totally free!</p>
+
+<h4 id="advanced-readings">Advanced Readings:</h4>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" title="Learn about ARIA from the Mozilla Developer Network">Accessible Rich Internet Applications (ARIA)</a> - a set of special accessibility attributes which can be added to any markup, but is especially suited to HTML.</p>
+
+<p><a href="http://webaim.org/intro/" title="Read the Intro to Web Accessibility">WebAIM’s Intro to Web Accessibility</a> - A quick overview to web accessibility and its development throughout the years.</p>
+
+<p><a href="https://www.udacity.com/course/web-accessibility--ud891" title="Take the free web accessibility course by Google on Udacity">Udacity Web Accessibility</a> - A free course developed by Google for the Udacity platform.</p>
+
+<hr />
+
+<p><strong>Have a question or a favorite resource for accessibility? Let us know in the comments!</strong></p>
+
+        </div>
+      </div>
+      <div class="four spacing"></div>
+      <h3>Share this:</h3>
+<div class="share-box">
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https://dinsmoredesign.com/blog/accessibility-for-dummies/" onclick="window.open(this.href); return false;" class="share-button facebook" title="Share this on Facebook">
+  		<i class="fa fa-facebook" aria-hidden="true"></i>
+  	</a>
+
+   <a href="https://twitter.com/intent/tweet?text=Web Accessibility for Dummies&url=https://dinsmoredesign.com/blog/accessibility-for-dummies/" onclick="window.open(this.href; return false;" class="share-button twitter" title="Share this on Twitter">
+  	   <i class="fa fa-twitter" aria-hidden="true"></i>
+  	</a>
+
+   <a href="https://plus.google.com/share?url=https://dinsmoredesign.com/blog/accessibility-for-dummies/" onclick="window.open(this.href; return false;" class="share-button google-plus" title="Share this on Google+">
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+   </a>
+
+   <a href="http://www.reddit.com/submit?url=https://dinsmoredesign.com/blog/accessibility-for-dummies/" onclick="window.open(this.href; return false;" class="share-button reddit" title="Share this on Reddit">
+      <i class="fa fa-reddit" aria-hidden="true"></i>
+   </a>
+
+   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://dinsmoredesign.com/blog/accessibility-for-dummies/&title=Web Accessibility for Dummies&summary=&source=DinsmoreDesign" onclick="window.open(this.href; return false;" class="share-button linkedin" title="Share this on LinkedIn">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+   </a>
+
+   <a href="mailto:?subject=Web Accessibility for Dummies&amp;body=Check this out: https://dinsmoredesign.com/blog/accessibility-for-dummies/" class="share-button mail" title="Share this via email">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+   </a>
+</div>
+
+      <div class="two spacing"></div>
+      
+	<div id="disqus_thread"></div>
+	<script>
+	var disqus_config = function () {
+	this.page.title = "//blog/accessibility-for-dummies/"; // <--- use canonical URL
+	this.page.identifier = "/blog/accessibility-for-dummies/";
+	};
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+
+	s.src = 'https://dinsmore-design.disqus.com/embed.js'; // <--- use Disqus shortname
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+
+	var disqus_developer = 1 // <--- Only use for development, remove on live site
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      <div class="four spacing"></div>
+    </div>
+  </div>
+</div>
+
+
+	    
+<div id="bottom-bar">
+  <div class="row" style="max-width: none;">
+    <div class="large-12 columns">
+      <div class="two spacing"></div>
+      <div class="large-3 medium-3 columns">
+        <h3>Dinsmore Design</h3>
+        <p style="margin-bottom: 40px;">We help clients develop their brand, strengthen marketing strategies and acquire life-long customers through creative and visually stunning communication.
+</p>
+      </div>
+      <div class="large-3 medium-3 columns">
+        <div class="links">
+          <h3>Recent Projects</h3>
+          <ul>
+            
+            
+              <li>
+                <a href="/portfolio/studio-22-images/" title="View case study on Studio 22 Images | Identity Creation">Studio 22 Images | Identity Creation</a>
+              </li>
+            
+              <li>
+                <a href="/portfolio/color-room-films/" title="View case study on Color Room Films | Website Redesign">Color Room Films | Website Redesign</a>
+              </li>
+            
+              <li>
+                <a href="/portfolio/digitaliso/" title="View case study on DigitalISO | Identity Creation">DigitalISO | Identity Creation</a>
+              </li>
+            
+              <li>
+                <a href="/portfolio/school-logos/" title="View case study on Mesa Public Schools | Brand Redesigns">Mesa Public Schools | Brand Redesigns</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="large-3 medium-3 columns">
+        <div class="links">
+          <h3>Recent Posts</h3>
+          <ul>
+            
+              <li>
+                <a href="/blog/accessibility-for-dummies/" title="Read about: Web Accessibility for Dummies">Web accessibility for dummies</a>
+              </li>
+            
+              <li>
+                <a href="/blog/3-resources-for-beginning-web-developers/" title="Read about: 3 Resources for Beginning Web Developers">3 resources for beginning web developers</a>
+              </li>
+            
+              <li>
+                <a href="/blog/5-tips-for-beginning-designers/" title="Read about: 5 Tips for Beginning Designers">5 tips for beginning designers</a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="large-3 medium-3 columns">
+        <div class="links">
+          <ul class="socials">
+
+            
+              <li>
+                <a href="https://www.facebook.com/ddinsmoredesign" target="_blank" title="Like us on Facebook">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+            
+              <li>
+                <a href="https://twitter.com/dinsmoredesign" target="_blank" title="Tweet us on Twitter">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+            
+              <li>
+                <a href="https://www.instagram.com/dinsmoredesign" target="_blank" title="Follow us on Instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+            
+            
+              <li>
+                <a href="https://github.com/DinsmoreDesign" target="_blank" title="View us on GitHub">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+            
+
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="large-3 columns">
+        <div class="links">
+          <h3>All Categories</h3>
+          <ul>
+            
+              <li><a href="#">Design</a></li>
+            
+              <li><a href="#">Development</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="large-12 columns">
+        <div class="links">
+          <h3>All Tags</h3>
+          <ul>
+            
+              <a href="#">Design</a>
+              
+                  |
+              
+            
+              <a href="#">Graphic design</a>
+              
+                  |
+              
+            
+              <a href="#">Web design</a>
+              
+                  |
+              
+            
+              <a href="#">Web development</a>
+              
+                  |
+              
+            
+              <a href="#">Tips & tricks</a>
+              
+                  |
+              
+            
+              <a href="#">Development</a>
+              
+                  |
+              
+            
+              <a href="#">Seo</a>
+              
+                  |
+              
+            
+              <a href="#">Accessibility</a>
+              
+            
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+	    <div class="full no-padding">
+  <div class="fullwidth" id="footer">
+    <div class="two spacing"></div>
+      <p class="copyright">
+        ©2017 Dinsmore Design. All rights reserved.<br/>
+        Mesa, Arizona 85205
+      </p>
+    <div class="two spacing"></div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/javascripts-b0c12959a102cb3fb3636af05e39f471.js"></script>
+
+<script>
+// terrificjs bootstrap
+(function($) {
+    $(document).ready(function() {
+        var $page = $('body');
+        var config = {
+          dependencyPath: {
+            plugin: 'javascripts/'
+          }
+        }
+        var application = new Tc.Application($page, config);
+        application.registerModules();
+        application.start();
+    });
+})(Tc.$);
+</script>
+
+
+
+
+  <script src="/javascripts/jquery.appear.js" type="text/javascript"></script>
+
+<script src="/javascripts/app.js" type="text/javascript"></script>
+
+
+	</body>
+
+</html>
