@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dinsmore Design</title>
+    <description>We help clients develop their brand, strengthen marketing strategies and acquire life-long customers through creative and visually stunning communication.
+</description>
+    <link>https://dinsmoredesign.com</link>
+    <atom:link href="https://dinsmoredesign.com/feed/" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Oct 2016 15:56:49 -0700</pubDate>
+    <lastBuildDate>Wed, 17 May 2017 11:07:55 -0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Web Accessibility for Dummies</title>
+        <description>Accessibility is a very important concept that's often overlooked by developers. As technology becomes more widely-used, making sure the websites you build are accessible to all visitors should be number one on your list!</description>
+        <pubDate>Tue, 16 May 2017 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/accessibility-for-dummies/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/accessibility-for-dummies/</guid>
+        
+        <category>development</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        <category>SEO</category>
+        
+        <category>accessibility</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>What to do when you think your Gmail was hacked.</title>
+        <description>As we move into an increasingly technology-dependent era, unfortunately, &quot;hacked&quot; email accounts have become increasingly more common. If you think you've been affected, don't worry, you're not alone.</description>
+        <pubDate>Fri, 05 May 2017 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/identifying-and-protecting-yourself-against-phishing-gmail/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/identifying-and-protecting-yourself-against-phishing-gmail/</guid>
+        
+        <category>email</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        <category>phishing</category>
+        
+        
+        <category>misc</category>
+        
+      </item>
+    
+      <item>
+        <title>3 Resources for Beginning Web Developers</title>
+        <description>In this article, we discuss 3 learning resources for beginning web developers to help boost their learning.</description>
+        <pubDate>Tue, 04 Oct 2016 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers/</guid>
+        
+        <category>web development</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>5 Tips for Beginning Designers</title>
+        <description>In this article, we discuss 5 simple tips for beginning designers and how they can maximize their marketability in the workforce.</description>
+        <pubDate>Fri, 16 Sep 2016 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers/</guid>
+        
+        <category>design</category>
+        
+        <category>graphic design</category>
+        
+        <category>web design</category>
+        
+        <category>web development</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+  </channel>
+</rss>
